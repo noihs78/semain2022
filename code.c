@@ -2,6 +2,8 @@
 
 int main(void) {
   int i = 10;
-  printf("Hello! %d", i);
+  for (i; i > 0; i--) {
+    printf("Hello! %d", i);
+  }
   return 0;
 }
